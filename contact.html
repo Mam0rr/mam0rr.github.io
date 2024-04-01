@@ -14,9 +14,15 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="#">Services</a>
+      <div class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Blog</a>
+        <div class="dropdown-content">
+          <!-- Blog post links will be dynamically generated here -->
+        </div>
+      </div>
       <a href="contact.html">Contact</a>
     </nav>
+    <script src="blogPosts.js"></script>
 
     <form action="https://api.web3forms.com/submit" method="POST">
       <input
