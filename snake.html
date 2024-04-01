@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="snake.css" />
   </head>
+
   <body>
     <header>
-      <h1>About me</h1>
+      <h1>You've found the fast snake game</h1>
     </header>
 
     <nav>
@@ -18,17 +20,10 @@
       <a href="contact.html">Contact</a>
     </nav>
 
-    <section>
-      <h2>About Us</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet
-        velit sit amet nunc dictum sodales. Suspendisse nec metus eget sapien
-        faucibus suscipit. Sed et tincidunt ligula.
-      </p>
-    </section>
-
-    <footer>
-      <p>&copy; 2024 My Homepage. All Rights Reserved.</p>
-    </footer>
+    <canvas id="board"></canvas>
+    <button onclick="restartGame()">Restart</button>
+    <!-- Add a restart button -->
+    <script src="snake.js"></script>
+    <!-- Load snake.js after the restart button -->
   </body>
 </html>
